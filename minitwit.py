@@ -82,7 +82,7 @@ def get_user_id(username):
 
 def format_datetime(timestamp):
     """Format a timestamp for display."""
-    return datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d @@@ %H:%M')
+    return datetime.utcfromtimestamp(timestamp).strftime('%Y-%m-%d @-@@-@ %H:%M')
 
 
 def gravatar_url(email, size=80):
